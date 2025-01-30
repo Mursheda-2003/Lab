@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h3{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+.calendar{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    row-gap: 20px;
+    column-gap: 10px;
+}
+.date, .day {
+    background-color: skyblue;
+    border-radius: 5px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+.date:hover{
+    background-color: grey;
+    color: aquamarine;
+}
+.day{
+    background-color: black;
+    color: aliceblue;
+}
